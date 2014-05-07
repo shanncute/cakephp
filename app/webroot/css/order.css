@@ -1,0 +1,75 @@
+
+.td1 {background:#EEEEEE;color:#000;border:1px solid #000;}
+.th{background:#F4F4F4;border:1px solid #000;}
+A:link {COLOR: #0000EE;}
+A:hover {COLOR: #0000EE;}
+A:visited {COLOR: #0000EE;}
+A:hover {COLOR: #0000EE;}
+
+.div_freezepanes_wrapper{
+position:relative;width:95%;height:400px;
+overflow:hidden;background:#fff;
+
+}
+
+.div_verticalscroll{
+position: absolute;right:0px;width:18px;height:100%;
+background:#EAEAEA;border:1px solid #C0C0C0;
+}
+
+.buttonUp{
+width:20px;position: absolute;top:2px;
+}
+
+.buttonDn{
+width:20px;position: absolute;bottom:22px;
+}
+
+.div_horizontalscroll{
+position: absolute;bottom:0px;width:99.85%;height:18px;
+background:#EAEAEA;
+border:1px solid #C0C0C0;
+z-index:2;
+
+}
+
+.buttonRight{
+width:20px;position: absolute;left:0px;padding-top:2px;
+}
+
+.buttonLeft{
+width:20px;position: absolute;right:3px;padding-top:2px;
+}
+form div{
+margin:0px;
+padding:0;
+}
+.textbox{
+border-radius:5px;
+border:1px solid #E6E5DE;
+}
+.textbox:focus{
+border-radius:5px;
+border:1px solid #CCCCCC;
+background-color:#F4F4F4;
+}
+.panel2{
+background:#EAEAEA;
+width:93%;
+display:none;
+margin:10px 0 0 10px;
+}
+.panel2 th{
+ padding: 4px;
+    text-align: left;
+	border-bottom:none;
+}
+.panel2 td{
+	border-bottom:none;
+}
+#t1{
+border:1px solid #000;
+}
+#t1 th{
+text-align:center;
+}
